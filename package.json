@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-basic-templste",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "surge --domain gutsby-hw-1.surge.sh --project ./public/"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.85",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.5"
+  }
+}
